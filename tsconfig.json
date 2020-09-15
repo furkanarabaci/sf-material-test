@@ -11,6 +11,7 @@
         "module": "CommonJS",
         "resolveJsonModule": true,
         "isolatedModules": false,
+        "esModuleInterop": true,
         "typeRoots": [
             "./scripts/node_modules/sf-core/device/system"
         ],
@@ -18,13 +19,16 @@
         "rootDir": "scripts",
         "lib": [
             "ES2015",
-            "ES2017"
+            "ES2017",
+            "es2018.promise"
         ]
     },
     "files": [
         "./typings.d.ts",
         "./scripts/node_modules/sf-core/index.d.ts",
-        "./scripts/node_modules/sf-core/.types/typings.d.ts"
+        "./scripts/node_modules/sf-core/.types/typings.d.ts",
+        "./scripts/node_modules/@smartface/contx/index.d.ts",
+        "./scripts/node_modules/@smartface/styler/index.d.ts"
     ],
     "exclude": [
         "node_modules",

@@ -8,8 +8,7 @@
 				"children": [
 					"42b807d1",
 					"b7d28cff",
-					"980522a9",
-					"9e49-7873-afba-472b"
+					"a71c-ed25-5634-e7fe"
 				],
 				"isRemovable": true,
 				"name": "page1",
@@ -20,7 +19,7 @@
 			"type": "Page",
 			"userProps": {
 				"flexProps": {
-					"justifyContent": "SPACE_BETWEEN",
+					"justifyContent": "FLEX_START",
 					"alignItems": "STRETCH"
 				},
 				"orientation": "PORTRAIT",
@@ -62,62 +61,21 @@
 			}
 		},
 		{
-			"className": ".sf-label",
-			"id": "980522a9",
+			"className": ".sf-scrollView",
+			"id": "a71c-ed25-5634-e7fe",
 			"props": {
-				"autoHeight": 39.325842696629216,
 				"children": [],
-				"name": "lbl",
+				"name": "scrollView1",
 				"parent": "e891b86d",
-				"text": "Page1",
 				"usePageVariable": true
 			},
-			"type": "Label",
+			"type": "ScrollView",
 			"userProps": {
-				"autoHeight": 39.325842696629216,
-				"backgroundColor": "rgba( 255, 255, 255, 0 )",
 				"flexProps": {
-					"marginLeft": 20,
-					"marginRight": 20,
-					"alignSelf": "STRETCH",
 					"flexGrow": 1
 				},
-				"font": {
-					"size": 32,
-					"bold": false,
-					"italic": false,
-					"family": "SFProText",
-					"style": "Regular"
-				},
-				"height": 600,
-				"multiline": true,
-				"text": "Page1",
-				"textAlignment": "MIDCENTER",
-				"textColor": "rgba( 210, 210, 210, 1 )",
+				"height": null,
 				"usePageVariable": true
-			}
-		},
-		{
-			"className": ".sf-button",
-			"id": "9e49-7873-afba-472b",
-			"props": {
-				"autoHeight": 50.561797752808985,
-				"children": [],
-				"name": "btnNext",
-				"parent": "e891b86d",
-				"text": "Next Page",
-				"usePageVariable": true
-			},
-			"type": "Button",
-			"userProps": {
-				"autoHeight": 50.561797752808985,
-				"flexProps": {
-					"alignSelf": "AUTO",
-					"positionType": "RELATIVE"
-				},
-				"text": "Next Page",
-				"usePageVariable": true,
-				"width": null
 			}
 		}
 	]
