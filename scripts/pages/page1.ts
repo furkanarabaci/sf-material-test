@@ -20,11 +20,17 @@ export default class Page1 extends Page1Design {
         const heightWidthMultiline = new FlMaterialTextBox();
         const rightLayout = new FlMaterialTextBox();
         const rightLayoutSecond = new FlMaterialTextBox();
+        //@ts-ignore
         this.scrollView1.layout.addChild(singleLine, "singleLine", ".materialTextBox-wrapper");
+        //@ts-ignore
         this.scrollView1.layout.addChild(multiLine, "multiLine", ".materialTextBox-wrapper");
+        //@ts-ignore
         this.scrollView1.layout.addChild(heightWidth, "heightWidth", ".materialTextBox-wrapper");
+        //@ts-ignore
         this.scrollView1.layout.addChild(heightWidthMultiline, "heightWidthMultiline", ".materialTextBox-wrapper");
+        //@ts-ignore
         this.scrollView1.layout.addChild(rightLayout, "rightLayout", ".materialTextBox-wrapper");
+        //@ts-ignore
         this.scrollView1.layout.addChild(rightLayoutSecond, "rightLayoutSecond", ".materialTextBox-wrapper");
         singleLine.options = { 
             hint: "singleLine",
