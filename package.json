@@ -1,22 +1,18 @@
 {
-    "devDependencies": {
-        "@smartface/wsbuilder": "^2.0.0",
-        "@types/chai": "^4.2.12",
-        "@types/mocha": "^7.0.1",
-        "@typescript-eslint/eslint-plugin": "4.0.1",
-        "@typescript-eslint/parser": "4.0.1",
-        "chai": "^4.2.0",
-        "eslint": "^7.8.1",
-        "eslint-plugin-import": "^2.22.0",
-        "mocha": "^7.2.0",
-        "typescript": "4.0.2"
-    },
-    "scripts": {
-        "dev": "tsc -w",
-        "build:tsc": "rm -rf ./dist && tsc",
-        "build:sf": "SMF_CIDE_WS_PATH=$PWD sfBuilder --standalone",
-        "build:transpile": "npm run build:sf && npm run build:tsc",
-        "build": "npm run build:tsc",
-        "watch": "SMF_CIDE_WS_PATH=$PWD concurrently 'sfBuilder'  'tsc -w'"
-    }
+	"name": "empty-ts-workspace",
+	"marketplace-assets": {},
+	"devDependencies": {
+		"typescript": "^3.7.5",
+		"@smartface/wsbuilder": "^1.0.0",
+		"concurrently": "^5.1.0"
+	},
+	"scripts": {
+		"dev": "tsc -w",
+		"build:tsc": "rm -rf ./dist && tsc",
+		"build:sf": "SMF_CIDE_WS_PATH=$PWD sfBuilder --standalone",
+		"build:transpile": "npm run build:sf && npm run build:tsc",
+		"build": "npm run build:tsc",
+		"watch": "SMF_CIDE_WS_PATH=$PWD concurrently 'sfBuilder'  'tsc -w'"
+	},
+	"version": "1.0.0"
 }
